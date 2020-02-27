@@ -1,3 +1,3 @@
-import {css} from "lit-element";
+import { css } from 'lit-element';
 
 export const style = css``;

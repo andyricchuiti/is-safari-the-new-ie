@@ -1,9 +1,9 @@
 export function customElement(elemName, extendingTag = '') {
-  return function (target) {
+  return function decorator(target) {
     if (extendingTag) {
-      customElements.define(elemName, target, {extends: extendingTag});
+      customElements.define(elemName, target, { extends: extendingTag });
     } else {
       customElements.define(elemName, target);
     }
-  }
+  };
 }
