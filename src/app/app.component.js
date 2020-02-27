@@ -11,6 +11,7 @@ class IsSafariIe extends LitElement {
   render() {
     return html`
       <h1>Yes</h1>
+      <p is="safari-test"></p>
     `;
   }
 }
