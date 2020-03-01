@@ -11,8 +11,11 @@ class IsSafariIe extends LitElement {
 
   render() {
     return html`
-      <h1>Yes</h1>
-      <p is="safari-test"></p>
+      <div class="container" role="main">
+        <h1>Yes</h1>
+        <p is="safari-test"></p>
+        <feature-list></feature-list>
+      </div>
     `;
   }
 }
