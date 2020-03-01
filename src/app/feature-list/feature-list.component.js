@@ -36,7 +36,7 @@ class FeatureList extends LitElement {
           <li>createImageBitmap</li>
         </ul>
         <hr></hr>
-        <small>Data gotten from caniuse.com and experience.</small>
+        <p><small style="text-align: left;">Data gotten from caniuse.com and experience.</small></p>
       </section>
     `;
   }
