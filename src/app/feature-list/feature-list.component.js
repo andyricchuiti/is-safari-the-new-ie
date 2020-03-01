@@ -13,7 +13,7 @@ class FeatureList extends LitElement {
     return html`
       <hr>
         <h2>
-          Here's a list of things Chrome, Edge, and Firefox support, but IE11 and Safari do not
+          Here's a list of things Chrome, Edge, and Firefox support, but IE11 and Safari do not.
         </h2>
         <ul>
           <li>Extending Built-in Elements</li>

@@ -7,6 +7,6 @@ class SafariTestComponent extends HTMLParagraphElement {
     if (super.connectedCallback) {
       super.connectedCallback();
     }
-    this.innerText = `Neither Safari nor IE11 can see this tag`;
+    this.innerText = `Neither Safari nor IE11 can see this paragraph tag`;
   }
 }
