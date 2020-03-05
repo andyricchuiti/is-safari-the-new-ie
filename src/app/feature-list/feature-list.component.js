@@ -23,7 +23,7 @@ class FeatureList extends LitElement {
           <li>CSS Containment</li>
           <li>Custom protocol handling</li>
           <li>Vibration API</li>
-          <li>Shared Web Workers <small>IE actually supports this.</small></li>
+          <li>Shared Web Workers <small>(IE actually supports this.)</small></li>
           <li>requestIdleCallback</li>
           <li>Push API</li>
           <li>BroadcastChannel</li>
