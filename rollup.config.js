@@ -13,6 +13,10 @@ export default {
       {
         src: './src/assets',
         dest: './dist/'
+      },
+      {
+        src: './src/robots.txt',
+        dest: './dist/'
       }
     ]
   })]
