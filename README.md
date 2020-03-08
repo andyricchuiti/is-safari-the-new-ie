@@ -11,6 +11,9 @@ npm init @open-wc
 # requires node 10 & npm 6 or higher
 ```
 
+## About the app
+Just a fun side project venting my frustration with how Apple and Webkit handle the web ecosystem.
+
 ## Scripts
 
 - `start` runs the app for development, reloading on file changes
