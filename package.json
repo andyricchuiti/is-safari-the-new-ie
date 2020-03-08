@@ -1,4 +1,9 @@
 {
+  "name": "is-safari-ie",
+  "version": "0.0.0",
+  "description": "Webcomponent app is-safari-ie following open-wc recommendations",
+  "author": "andy",
+  "license": "MIT",
   "scripts": {
     "build": "rimraf dist && rollup -c rollup.config.js",
     "build:watch": "rimraf dist && rollup --watch -c rollup.config.js",
@@ -12,6 +17,10 @@
     "start": "run-p build:watch serve",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0",
+    "lit-element": "^2.0.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.8.3",
@@ -37,7 +46,6 @@
       "eslint-config-prettier"
     ]
   },
-  "prettier": "@open-wc/prettier-config",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -50,13 +58,5 @@
       "git add"
     ]
   },
-  "name": "is-safari-ie",
-  "version": "0.0.0",
-  "description": "Webcomponent is-safari-ie following open-wc recommendations",
-  "author": "is-safari-ie",
-  "license": "MIT",
-  "dependencies": {
-    "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
-  }
+  "prettier": "@open-wc/prettier-config"
 }
